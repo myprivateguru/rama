@@ -12,7 +12,7 @@
                     <p ng-if="!sitename" class="item-heading padding">{{siteurl}}</p>
                     <!-- If sitename, show big sitename and small siteurl. -->
                     <p ng-if="sitename" class="item-heading padding">{{sitename}}</p>
-                    <p ng-if="sitename">{{siteurl}}</p>
+                    <!-- <p ng-if="sitename">{{siteurl}}</p> -->
 
                     <p class="padding-top" ng-if="!isLoggedOut"><i class="icon ion-alert-circled padding"></i> {{ 'mm.login.reconnectdescription' | translate }}</p>
                 </div>
