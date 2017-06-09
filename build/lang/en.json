@@ -644,6 +644,7 @@
     "mm.question.unknown": "Cannot determine status",
     "mm.settings.about": "About",
 	"mm.settings.abouta": "Abouta",
+	"site.mm_settings-abouta":" Update",
     "mm.settings.appready": "App ready",
     "mm.settings.cacheexpirationtime": "Cache expiration time (miliseconds)",
     "mm.settings.cannotsyncoffline": "Cannot synchronize offline.",
