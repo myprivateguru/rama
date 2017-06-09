@@ -711,6 +711,7 @@
     "mm.sidemenu.appsettings": "App settings",
     "mm.sidemenu.changesite": "Change site",
     "mm.sidemenu.help": "Help",
+	"mm.sidemenu.abouta" : "About 1",
     "mm.sidemenu.logout": "Log out",
     "mm.sidemenu.mycourses": "My courses",
     "mm.sidemenu.togglemenu": "Toggle menu",
