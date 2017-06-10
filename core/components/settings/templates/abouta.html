@@ -5,7 +5,7 @@
                 <h2>MyPrivateGuru</h2>
             </li>
             <li class="item item-divider">
-                <p>{{ 'mm.settings.license' | translate }}</p>
+                <p>Info</p>
             </li>
             <li class="item item-text-wrap">
 				<h2>For New Version !</h2>
@@ -20,6 +20,11 @@
                 <p><button onclick="window.plugins.socialsharing.share('I am using MyPrivateGuru app for study. its very awesome app. see how it works...', null, null, 'https://goo.gl/jxGQVk')">Invite</button></p>
 
             </li>
+			<li>
+                        <a menu-close class="item item-icon-left" ui-sref="site.mm_settings-abouta" title="{{ 'mm.sidemenu.abouta' | translate}}">
+                            <i class="icon ion-share"></i>{{ 'mm.sidemenu.abouta' | translate}}
+                        </a>
+                    </li>
         </ul>
     </ion-content>
 </ion-view>

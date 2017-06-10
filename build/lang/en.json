@@ -643,6 +643,7 @@
     "mm.question.requiresgrading": "Requires grading",
     "mm.question.unknown": "Cannot determine status",
     "mm.settings.about": "About",
+	"mm.settings.share": "Share",
 	"mm.settings.abouta": "Share and Update",
 	"site.mm_settings-abouta":" Update",
     "mm.settings.appready": "App ready",
