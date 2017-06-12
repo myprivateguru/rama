@@ -22,7 +22,7 @@
             </li>
 			<li>
                         <a menu-close class="item item-icon-left" ui-sref="site.mm_settings-abouta" title="{{ 'mm.sidemenu.abouta' | translate}}">
-                            <i class="icon ion-share"></i>{{ 'mm.sidemenu.abouta' | translate}}
+                            <button class=" button button-icon ion-share" ng-click="window.plugins.socialsharing.share('I am using MyPrivateGuru app for study. its very awesome app. see how it works...', null, null, 'https://goo.gl/jxGQVk')"></button>{{ 'mm.sidemenu.abouta' | translate}}
                         </a>
                     </li>
         </ul>
