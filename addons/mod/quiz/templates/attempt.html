@@ -25,6 +25,12 @@
                     <p class="item-heading">{{ 'mma.mod_quiz.feedback' | translate }}</p>
                     <p><mm-format-text watch="true" component="{{component}}" component-id="{{componentId}}">{{ attempt.feedback }}</mm-format-text></p>
                 </div>
+				<div class="col col-33">
+                        
+                        <div class="item chart-item">
+                            <canvas class="chart chart-pie" chart-data="data" chart-labels="labels"></canvas>
+                        </div>
+                    </div>
                 <div class="item" ng-if="quiz.showReviewColumn && attempt.finished">
                     <button class="button button-block icon-left ion-search" ui-sref="site.mod_quiz-review({courseid: courseId, quizid: quiz.id, attemptid: attempt.id})">{{ 'mma.mod_quiz.review' | translate }}</button>
                 </div>
