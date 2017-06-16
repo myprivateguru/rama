@@ -44,6 +44,12 @@
                     <p class="item-heading">{{ data.title }}</p>
                     <mm-format-text watch="true" component="{{component}}" component-id="{{componentId}}">{{ data.content }}</mm-format-text>
                 </div>
+				<div class="col col-33">
+                        
+                        <div class="item chart-item">
+                            <canvas class="chart chart-pie" chart-data="data" chart-labels="labels"></canvas>
+                        </div>
+                    </div>
             </section>
             <!-- Questions -->
             <div ng-if="attempt && questions.length">
