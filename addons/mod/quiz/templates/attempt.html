@@ -2,19 +2,19 @@
     <ion-nav-title><mm-format-text watch="true">{{ quiz.name }}</mm-format-text></ion-nav-title>
     <ion-content mm-state-class>
         <ion-refresher pulling-text="{{ 'mm.core.pulltorefresh' | translate }}" ng-if="attemptLoaded" on-refresh="refreshAttempt()"></ion-refresher>
-        <mm-loading hide-until="attemptLoaded">
-		
-		
-		<!-- <div class="tabs tabs-striped tabs-free mm-tabs-color" > -->
-                <!-- <a class="tab-item" ng-class="{'active': display == DISPLAY_VIEW}" ng-click="changeDisplay(DISPLAY_VIEW)">{{ 'mma.mod_lesson.preview' | translate }}</a> -->
-                <!-- <a class="tab-item" ng-class="{'active': display == DISPLAY_REPORTS}" ng-click="changeDisplay(DISPLAY_REPORTS)">{{ 'mma.mod_lesson.reports' | translate }}</a> -->
-            <!-- </div> -->
-		            <!-- <ng-include ng-if="display == DISPLAY_VIEW" src="'addons/mod/quiz/templates/view.html'"></ng-include> -->
+        
+		<div class="tabs tabs-striped tabs-free mm-tabs-color" >
+                <a class="tab-item" ng-class="{'active': display == DISPLAY_VIEW}" ng-click="changeDisplay(DISPLAY_VIEW)">{{ 'mma.mod_lesson.preview' | translate }}</a>
+                <a class="tab-item" ng-class="{'active': display == DISPLAY_REPORTS}" ng-click="changeDisplay(DISPLAY_REPORTS)">{{ 'mma.mod_lesson.reports' | translate }}</a>
+            </div>
+		            <ng-include ng-if="display == DISPLAY_VIEW" src="'addons/mod/quiz/templates/view.html'"></ng-include>
 
-            <!-- <ng-include ng-if="display == DISPLAY_REPORTS" src="'addons/mod/quiz/templates/reports.html'"></ng-include> -->
+            <ng-include ng-if="display == DISPLAY_REPORTS" src="'addons/mod/quiz/templates/reports.html'"></ng-include>
 		
 		
-            <div class="list" ng-if="attempt">
+		<mm-loading hide-until="attemptLoaded">
+		
+		       <div class="list" ng-if="attempt">
                 <div class="item item-text-wrap">
                     <p class="item-heading">{{ 'mma.mod_quiz.attemptnumber' | translate }}</p>
                     <p ng-if="attempt.preview">{{ 'mma.mod_quiz.preview' | translate }}</p>
