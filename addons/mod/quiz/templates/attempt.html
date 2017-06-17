@@ -9,7 +9,7 @@
                 <a class="tab-item" ng-class="{'active': display == DISPLAY_VIEW}" ng-click="changeDisplay(DISPLAY_VIEW)">{{ 'mma.mod_lesson.preview' | translate }}</a>
                 <a class="tab-item" ng-class="{'active': display == DISPLAY_REPORTS}" ng-click="changeDisplay(DISPLAY_REPORTS)">{{ 'mma.mod_lesson.reports' | translate }}</a>
             </div>
-		            <ng-include ng-if="display == DISPLAY_VIEW" src="'addons/mod/quiz/templates/view.html'"></ng-include>
+		            <ng-include ng-if="display == DISPLAY_VIEW" src="'addons/mod/quiz/templates/review.html'"></ng-include>
 
             <ng-include ng-if="display == DISPLAY_REPORTS" src="'addons/mod/quiz/templates/reports.html'"></ng-include>
 		
