@@ -26,6 +26,7 @@
                             <span class="badge mm-course-download" ng-if="downloadSectionsEnabled && section.isDownloading && section.total > 0 && section.count < section.total">{{section.count}} / {{section.total}}</span>
                             <p class="badge badge-calm badge-inline" ng-if="section.visible === 0">{{ 'mm.course.nocontentavailable' | translate }}</p>
                             <p class="badge badge-calm badge-inline" ng-if="section.availabilityinfo"><mm-format-text watch="true">{{ section.availabilityinfo }}</mm-format-text></p>
+							<mm-progress-bar  progress="section.progress"></mm-progress-bar>
                         </a>
                     </li>
                 </ul>
