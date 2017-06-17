@@ -4,12 +4,12 @@
         <ion-refresher pulling-text="{{ 'mm.core.pulltorefresh' | translate }}" ng-if="attemptLoaded" on-refresh="refreshAttempt()"></ion-refresher>
         
 		<ion-tabs class="tabs-icon-top">
-            <ion-tab title="{{ 'mma.messages.messages' | translate }}" icon="ion-chatbox">
+            <ion-tab title="{{ 'mma.mod_quiz.review' | translate }}" icon="ion-chatbox">
                 <ion-pane ng-controller="mmaMessagesDiscussionsCtrl">
                     <ng-include src="'addons/mod/quiz/templates/reports.html'"></ng-include>
                 </ion-pane>
             </ion-tab>
-            <ion-tab title="{{ 'mma.messages.contacts' | translate }}" icon="ion-person-stalker">
+            <ion-tab title="{{ 'mma.mod_quiz.report' | translate }}" icon="ion-person-stalker">
                 <ion-pane ng-controller="mmaMessagesContactsCtrl">
                     <ng-include src="'addons/mod/quiz/templates/view.html'"></ng-include>
                 </ion-pane>
