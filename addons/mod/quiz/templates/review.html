@@ -6,6 +6,41 @@
     <ion-content mm-state-class delegate-handle="mmaModQuizReviewScroll">
         <ion-refresher pulling-text="{{ 'mm.core.pulltorefresh' | translate }}" ng-if="dataLoaded" on-refresh="refreshData()"></ion-refresher>
         <mm-loading hide-until="dataLoaded">
+		
+		
+		<!-- new reviw added -->
+		
+		<div class="list" ng-if="attempt">
+                <div class="item item-text-wrap">
+                    <p class="item-heading">{{ 'mma.mod_quiz.attemptnumber' | translate }}</p>
+                    <p ng-if="attempt.preview">{{ 'mma.mod_quiz.preview' | translate }}</p>
+                    <p ng-if="!attempt.preview">{{ attempt.attempt }}</p>
+                </div>
+                <div class="item item-text-wrap">
+                    <p class="item-heading">{{ 'mma.mod_quiz.attemptstate' | translate }}</p>
+                    <p ng-repeat="sentence in attempt.readableState">{{ sentence }}</p>
+                </div>
+                <div class="item item-text-wrap" ng-if="quiz.showMarkColumn && attempt.readableMark !== ''">
+                    <p class="item-heading">{{ 'mma.mod_quiz.marks' | translate }} / {{ quiz.sumGradesFormatted }}</p>
+                    <p>{{ attempt.readableMark }}</p>
+                </div>
+                <div class="item item-text-wrap" ng-if="quiz.showGradeColumn && attempt.readableGrade !== ''">
+                    <p class="item-heading">{{ 'mma.mod_quiz.grade' | translate }} / {{ quiz.gradeFormatted }}</p>
+                    <p>{{ attempt.readableGrade }}</p>
+                </div>
+                <div class="item item-text-wrap" ng-if="quiz.showFeedbackColumn && attempt.feedback">
+                    <p class="item-heading">{{ 'mma.mod_quiz.feedback' | translate }}</p>
+                    <p><mm-format-text watch="true" component="{{component}}" component-id="{{componentId}}">{{ attempt.feedback }}</mm-format-text></p>
+                </div>
+                <div class="item" ng-if="quiz.showReviewColumn && attempt.finished">
+                    <button class="button button-block icon-left ion-search" ui-sref="site.mod_quiz-review({courseid: courseId, quizid: quiz.id, attemptid: attempt.id})">{{ 'mma.mod_quiz.review' | translate }}</button>
+                </div>
+                <div class="item item-text-wrap mm-error-item" ng-if="!quiz.showReviewColumn">
+                    <p>{{ 'mma.mod_quiz.noreviewattempt' | translate }}</p>
+                </div>
+            </div>
+			
+			
             <!-- Review summary -->
             <section class="card" ng-if="attempt">
                 <div class="item item-divider">
