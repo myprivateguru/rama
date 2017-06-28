@@ -2,42 +2,19 @@
     <ion-nav-title><mm-format-text watch="true">{{ quiz.name }}</mm-format-text></ion-nav-title>
     <ion-content mm-state-class>
         <ion-refresher pulling-text="{{ 'mm.core.pulltorefresh' | translate }}" ng-if="attemptLoaded" on-refresh="refreshAttempt()"></ion-refresher>
-        <mm-loading hide-until="attemptLoaded">
-            <div class="list" ng-if="attempt">
-                <div class="item item-text-wrap">
-                    <p class="item-heading">{{ 'mma.mod_quiz.attemptnumber' | translate }}</p>
-                    <p ng-if="attempt.preview">{{ 'mma.mod_quiz.preview' | translate }}</p>
-                    <p ng-if="!attempt.preview">{{ attempt.attempt }}</p>
-                </div>
-                <div class="item item-text-wrap">
-                    <p class="item-heading">{{ 'mma.mod_quiz.attemptstate' | translate }}</p>
-                    <p ng-repeat="sentence in attempt.readableState">{{ sentence }}</p>
-                </div>
-                <div class="item item-text-wrap" ng-if="quiz.showMarkColumn && attempt.readableMark !== ''">
-                    <p class="item-heading">{{ 'mma.mod_quiz.marks' | translate }} / {{ quiz.sumGradesFormatted }}</p>
-                    <p>{{ attempt.readableMark }}</p>
-                </div>
-                <div class="item item-text-wrap" ng-if="quiz.showGradeColumn && attempt.readableGrade !== ''">
-                    <p class="item-heading">{{ 'mma.mod_quiz.grade' | translate }} / {{ quiz.gradeFormatted }}</p>
-                    <p>{{ attempt.readableGrade }}</p>
-                </div>
-                <div class="item item-text-wrap" ng-if="quiz.showFeedbackColumn && attempt.feedback">
-                    <p class="item-heading">{{ 'mma.mod_quiz.feedback' | translate }}</p>
-                    <p><mm-format-text watch="true" component="{{component}}" component-id="{{componentId}}">{{ attempt.feedback }}</mm-format-text></p>
-                </div>
-				<div class="col col-33">
-                        
-                        <div class="item chart-item">
-                            <canvas class="chart chart-pie" chart-data="data" chart-labels="labels"></canvas>
-                        </div>
-                    </div>
-                <div class="item" ng-if="quiz.showReviewColumn && attempt.finished">
-                    <button class="button button-block icon-left ion-search" ui-sref="site.mod_quiz-review({courseid: courseId, quizid: quiz.id, attemptid: attempt.id})">{{ 'mma.mod_quiz.review' | translate }}</button>
-                </div>
-                <div class="item item-text-wrap mm-error-item" ng-if="!quiz.showReviewColumn">
-                    <p>{{ 'mma.mod_quiz.noreviewattempt' | translate }}</p>
-                </div>
-            </div>
-        </mm-loading>
+        
+		<ion-tabs class="tabs-icon-top">
+            <ion-tab title="{{ 'mma.mod_quiz.report' | translate }}" icon="ion-pie-graph">
+                <ion-pane ng-controller="mmaMessagesDiscussionsCtrl">
+                    <ng-include src="'addons/mod/quiz/templates/reports.html'"></ng-include>
+                </ion-pane>
+            </ion-tab>
+            <ion-tab title="{{ 'mma.mod_quiz.review' | translate }}" icon="ion-arrow-graph-up-right">
+                <ion-pane ng-controller="mmaMessagesContactsCtrl">
+                    <ng-include src="'addons/mod/quiz/templates/view.html'"></ng-include>
+                </ion-pane>
+            </ion-tab>
+        </ion-tabs>
+	
     </ion-content>
 </ion-view>
