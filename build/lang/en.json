@@ -1201,6 +1201,7 @@
     "mma.mod_quiz.attemptstate": "State",
     "mma.mod_quiz.cannotsubmitquizdueto": "This quiz attempt cannot be submitted for the following reasons:",
     "mma.mod_quiz.comment": "Comment",
+	"mma.mod_quiz.report": "Report",
     "mma.mod_quiz.completedon": "Completed on",
     "mma.mod_quiz.confirmclose": "Once you submit, you will no longer be able to change your answers for this attempt.",
     "mma.mod_quiz.confirmcontinueoffline": "This attempt has not been synchronized since {{$a}}. If you have continued this attempt in another device since then, you may lose data.",
