@@ -11571,6 +11571,16 @@ angular.module('mm.core.settings', [])
             }
         }
     })
+	.state('site.mm_settings-abouta', {
+        url: '/mm_settings-abouta',
+        views: {
+            'site': {
+                templateUrl: 'core/components/settings/templates/abouta.html',
+                controller: 'mmSettingsAboutCtrl'
+            }
+        }
+    })
+	
     .state('site.mm_settings-general', {
         url: '/mm_settings-general',
         views: {
@@ -59909,7 +59919,7 @@ angular.module('mm.core')
     "versionname" : "3.3.0",
     "cache_expiration_time" : 300000,
     "default_lang" : "en",
-	"languages":{"en":"English","Mar":"Marathi"},
+	"languages":{"en":"English","mar":"Marathi"},
     // "languages": {"ar": "عربي", "bg": "Български", "ca": "Català", "cs": "Čeština", "da": "Dansk", "de": "Deutsch", "el": "Ελληνικά", "en": "English", "es": "Español", "es-mx": "Español - México", "eu": "Euskara", "fa": "فارسی", "fr" : "Français", "he" : "עברית", "hu": "magyar", "it": "Italiano", "ja": "日本語","nl": "Nederlands", "pl": "Polski", "pt-br": "Português - Brasil", "pt": "Português - Portugal", "ro": "Română", "ru": "Русский", "sv": "Svenska", "tr" : "Türkçe", "uk" : "Українська", "zh-cn" : "简体中文", "zh-tw" : "正體中文"},
     "wsservice" : "moodle_mobile_app",
     "wsextservice" : "local_mobile",
