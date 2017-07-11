@@ -66,15 +66,12 @@
 			<div ng-show="tabShown == 'courses123'" >
 			
 			<div>
-                    <ion-refresher pulling-text="{{ 'mm.core.pulltorefresh' | translate }}" ng-if="coursesLoaded" on-refresh="refreshCourses()">
-        </ion-refresher>
-        <mm-loading hide-until="coursesLoaded">
-            <div ng-if="courses.length > 0">
-                <mm-course-list-item ng-repeat="course in courses track by course.id" course="course"></mm-course-list-item>
-            </div>
-            <mm-empty-box ng-if="!courses.length" icon="ion-ionic" message="{{ 'mm.courses.nocourses' | translate }}"></mm-empty-box>
-        </mm-loading>
-
+                   <a  ui-sref="site.mm_availablecourses" class="item item-text-wrap item-icon-left item-icon-right">
+    <i class="icon ion-ionic"></i>
+    <h2>{{ 'mm.courses.availablecourses' | translate}}</h2>
+    <i class="icon icon-accessory ion-chevron-right"></i>
+</a>
+ 
                         <h1>"Rank will display here"</h1>
                     
 
