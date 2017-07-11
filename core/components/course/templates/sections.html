@@ -27,10 +27,10 @@
                             <p class="badge badge-calm badge-inline" ng-if="section.visible === 0">{{ 'mm.course.nocontentavailable' | translate }}</p>
                             <p class="badge badge-calm badge-inline" ng-if="section.availabilityinfo"><mm-format-text watch="true">{{ section.availabilityinfo }}</mm-format-text></p>
                         
-						<li class="item item-text-wrap">                        
+						                        
                         {{ 'mma.competency.xcompetenciesproficientoutofy' | translate: {$a: {x: section.count, y: section.total} } }}
                         <mm-progress-bar progress="section.proficientcompetencypercentage" text="section.proficientcompetencypercentageformatted"></mm-progress-bar>
-                        </li>
+                        
 						
 						
 						</a>
