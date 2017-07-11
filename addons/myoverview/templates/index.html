@@ -8,6 +8,7 @@
         <div class="tabs tabs-striped tabs-free mm-tabs-color">
             <a class="tab-item" ng-class="{'active': tabShown == 'timeline'}" ng-click="switchTab('timeline')">{{ 'mma.myoverview.timeline' | translate }}</a>
             <a class="tab-item" ng-class="{'active': tabShown == 'courses'}" ng-click="switchTab('courses')">{{ 'mm.courses.courses' | translate }}</a>
+			<a class="tab-item" ng-class="{'active': tabShown == 'courses'}" ng-click="switchTab('courses')">{{ 'mm.courses.courses123' | translate }}</a>
         </div>
         <div class="padding">
             <div class="item-select mm-full-width-centered mm-timelinesort" ng-show="tabShown == 'timeline' && (timeline.loaded || timelineCourses.loaded)">
