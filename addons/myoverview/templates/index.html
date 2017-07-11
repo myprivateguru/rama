@@ -66,7 +66,12 @@
 			<div ng-show="tabShown == 'courses123'" >
 			
 			<div>
-                    
+                    <a ng-if="show" ui-sref="site.mm_availablecourses" class="item item-text-wrap item-icon-left item-icon-right">
+                     <i class="icon ion-ionic"></i>
+                      <h2>{{ 'mm.courses.availablecourses' | translate}}</h2>
+                     <i class="icon icon-accessory ion-chevron-right"></i>
+                    </a>
+
                         <h1>"Rank will display here"</h1>
                     
 
