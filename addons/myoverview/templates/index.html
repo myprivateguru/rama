@@ -63,15 +63,15 @@
                 <mm-empty-box ng-if="courses[courses.selected].length == 0 && courses.selected == 'future'" image="addons/myoverview/img/courses.svg" message="{{ 'mma.myoverview.nocoursesfuture' | translate }}"></mm-empty-box>
                 <mm-empty-box ng-if="courses[courses.selected].length == 0 && courses.selected == 'past'" image="addons/myoverview/img/courses.svg" message="{{ 'mma.myoverview.nocoursespast' | translate }}"></mm-empty-box>
             </mm-loading>
-			<mm-loading hide-until="loaded"> ng-show="tabShown == 'courses123'" class="mm-loading-center">
+			<div ng-show="tabShown == 'courses123'" >
 			
-			<div class="list">
+			<div>
                     
                         <h1>"Rank will display here"</h1>
                     
 
             </div>
-			</mm-loading>
+			</div>
 			
 			
 			
