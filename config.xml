@@ -5,14 +5,14 @@
         id        = "com.myprivateguru.moodlemobile"
         versionCode = "20180"
         version   = "3.3.0">
-    <name>My Guru</name>
+    <name>DBATU</name>
 
     <description>
-        My Guru official app
+        Dr Babasaheb Ambedkar Technological University ,Lonere MOOC courses app. 
     </description>
 
     <author href="http://moodle.com" email="mobile@moodle.com">
-        MyGuru Pty Ltd
+        MyPrivateGuru Pty Ltd
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
