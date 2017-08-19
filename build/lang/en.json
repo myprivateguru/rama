@@ -1425,5 +1425,6 @@
     "mma.participants.noparticipants": "No participants found for this course",
     "mma.participants.participants": "Participants",
 	"mm.sidemenu.abouta":"About",
-	"mm.setting.abouta":"Update and Share"
+	"mm.setting.abouta":"Update and Share",
+	"mm.courses.courses123":"LeaderBoard"
 }
