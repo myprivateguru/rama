@@ -575,7 +575,7 @@
     "mm.login.firsttime": "Is this your first time here?",
     "mm.login.getanothercaptcha": "Get another CAPTCHA",
     "mm.login.help": "Help",
-    "mm.login.helpmelogin": "<p><a href=\"http://myprivateguru.com\" target=\"_blank\">http://http://myprivateguru.com</a></p><p>To test the app in a MyPrivateguru demo site type <i>teacher</i> or <i>student</i> in the <i>Site address</i> field and click the <b>Connect button</b>.</p>",
+    "mm.login.helpmelogin": "<p>There are many thousands of Moodle sites around the world. This app can only connect to Moodle sites that have specifically enabled Mobile app access.</p><p>If you can't connect to your Moodle site then you need to contact a Moodle administrator at the place where you want to connect and ask them to read <a href=\"http://docs.moodle.org/en/Mobile_app\" target=\"_blank\">http://docs.moodle.org/en/Mobile_app</a></p><p>To test the app in a Moodle demo site type <i>teacher</i> or <i>student</i> in the <i>Site address</i> field and click the <b>Connect button</b>.</p>",
     "mm.login.instructions": "Instructions",
     "mm.login.invalidaccount": "Please check your login details or ask your site administrator to check the site configuration.",
     "mm.login.invaliddate": "Invalid date",
@@ -1424,5 +1424,4 @@
     "mma.notifications.therearentnotificationsyet": "There are no notifications",
     "mma.participants.noparticipants": "No participants found for this course",
     "mma.participants.participants": "Participants"
-	
 }
