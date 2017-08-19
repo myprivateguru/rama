@@ -6,7 +6,6 @@
     <ion-content mm-state-class delegate-handle="mmaModQuizReviewScroll">
         <ion-refresher pulling-text="{{ 'mm.core.pulltorefresh' | translate }}" ng-if="dataLoaded" on-refresh="refreshData()"></ion-refresher>
         <mm-loading hide-until="dataLoaded">
-		
             <!-- Review summary -->
             <section class="card" ng-if="attempt">
                 <div class="item item-divider">
