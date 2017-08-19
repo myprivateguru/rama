@@ -1424,8 +1424,5 @@
     "mma.notifications.therearentnotificationsyet": "There are no notifications",
     "mma.participants.noparticipants": "No participants found for this course",
     "mma.participants.participants": "Participants"
-	"mm.settings.share": "Share",
-	"mm.settings.abouta": "Share and Update",
-	"site.mm_settings-abouta":" Update",
-	"mm.sidemenu.abouta" : "Share",
+	
 }
