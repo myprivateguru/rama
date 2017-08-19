@@ -513,7 +513,7 @@
     "mm.courses.notenroled": "You are not enrolled in this course",
     "mm.courses.notenrollable": "You can not enrol yourself in this course.",
     "mm.courses.password": "Enrolment key",
-    "mm.courses.search": "Search",
+    "mm.courses.search": "Search e. g. Physics",
     "mm.courses.searchcourses": "Search courses",
     "mm.courses.searchcoursesadvice": "You can use the search courses button to access as guest or enrol yourself in courses that allow it.",
     "mm.courses.selfenrolment": "Self-enrolment",
@@ -560,7 +560,7 @@
     "mm.login.checksiteversion": "Check that your site uses Moodle 2.4 or later.",
     "mm.login.confirmdeletesite": "Are you sure you want to delete the site {{sitename}}?",
     "mm.login.connect": "Connect!",
-    "mm.login.connecttomoodle": "Connect to Moodle",
+    "mm.login.connecttomoodle": "Connect to MyGuru",
     "mm.login.contactyouradministrator": "Contact your site administrator for further help.",
     "mm.login.contactyouradministratorissue": "Please, ask the administrator to check the following issue: {{$a}}",
     "mm.login.createaccount": "Create my new account",
@@ -837,7 +837,7 @@
     "mma.files.sitefiles": "Site files",
     "mma.files.sitefilesdesc": "The other files that are available to you on this Moodle site.",
     "mma.files.uploadfiles": "Upload files",
-    "mma.frontpage.sitehome": "Site home",
+    "mma.frontpage.sitehome": "Home",
     "mma.frontpage.sitenews": "Site announcements",
     "mma.grades.nogradesreturned": "No grades returned",
     "mma.grades.viewgrades": "View grades",
@@ -1424,5 +1424,6 @@
     "mma.notifications.therearentnotificationsyet": "There are no notifications",
     "mma.participants.noparticipants": "No participants found for this course",
     "mma.participants.participants": "Participants",
-	"mm.sidemenu.abouta":"About"
+	"mm.sidemenu.abouta":"About",
+	"mm.setting.abouta":"Update and Share"
 }
