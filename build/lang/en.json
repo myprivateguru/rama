@@ -1423,5 +1423,6 @@
     "mma.notifications.playsound": "Play sound",
     "mma.notifications.therearentnotificationsyet": "There are no notifications",
     "mma.participants.noparticipants": "No participants found for this course",
-    "mma.participants.participants": "Participants"
+    "mma.participants.participants": "Participants",
+	"mm.sidemenu.abouta":"About"
 }
