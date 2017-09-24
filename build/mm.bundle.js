@@ -59913,7 +59913,7 @@ angular.module('mm.addons.messageoutput_airnotifier')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id" : "com.moodle.moodlemobile",
+    "app_id" : "com.moodle.moodlebatu",
     "appname": "Moodle Mobile",
     "versioncode" : "2018",
     "versionname" : "3.3.0",
@@ -59926,7 +59926,7 @@ angular.module('mm.core')
     "demo_sites": {"student": {"url": "http://school.demo.moodle.net", "username": "student", "password": "moodle"}, "teacher": {"url": "http://school.demo.moodle.net", "username": "teacher", "password": "moodle"}, "cva": {"url": "http://mm.cvaconsulting.com/moodle", "username": "student", "password": "student"}},
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "guru.moodlecloud.com",
+    "siteurl": "http://ec2-54-173-140-112.compute-1.amazonaws.com",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
     "privacypolicy": "https://moodle.org/mod/page/view.php?id=8148"
