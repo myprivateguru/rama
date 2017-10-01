@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.myprivateguru.moodlemobile"
+        id        = "com.myprivateguru.batu"
         versionCode = "20180"
         version   = "3.3.0">
     <name>DBATU</name>
@@ -11,7 +11,7 @@
         Dr Babasaheb Ambedkar Technological University ,Lonere MOOC courses app. 
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
+    <author href="http://myprivateguru.com" email="gurututorialsforu@gmail.com">
         MyPrivateGuru Pty Ltd
     </author>
 

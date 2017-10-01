@@ -59913,7 +59913,7 @@ angular.module('mm.addons.messageoutput_airnotifier')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id" : "com.moodle.moodlebatu",
+    "app_id" : "com.myprivateguru.batu",
     "appname": "Moodle Mobile",
     "versioncode" : "2018",
     "versionname" : "3.3.0",
