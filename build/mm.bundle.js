@@ -11722,6 +11722,15 @@ angular.module('mm.core.settings', [])
             }
         }
 	})
+	.state('site.mm_settings-batu', {
+        url: '/mm_settings-batu',
+        views: {
+            'site': {
+                templateUrl: 'core/components/settings/templates/batu.html',
+                controller: 'mmSettingsAboutCtrl'
+            }
+        }
+	})
     .state('site.mm_settings-general', {
         url: '/mm_settings-general',
         views: {
