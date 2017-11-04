@@ -31,6 +31,10 @@
                 </ion-input>
                 <!-- More details. -->
                 <div class="item item-divider item-text-wrap">{{ 'mm.login.supplyinfo' | translate }}</div>
+				<ion-input class="item item-input item-stacked-label item-text-wrap">
+                    <ion-label>{{ 'mm.user.phone2' | translate }}</ion-label>
+                    <input type="text" name="phone2" placeholder="{{ 'mm.user.pnone2' | translate }}" ng-model="data.phone2" autocorrect="off">
+                </ion-input>
                 <ion-input class="item item-input item-stacked-label item-text-wrap" mm-input-errors error-messages="emailErrors">
                     <ion-label mm-mark-required="true">{{ 'mm.user.email' | translate }}</ion-label>
                     <input type="email" name="email" placeholder="{{ 'mm.user.email' | translate }}" ng-model="data.email" autocapitalize="none" autocorrect="off" required>
@@ -43,10 +47,10 @@
                     <ion-label mm-mark-required="true">{{ 'mm.user.' + namefield | translate }}</ion-label>
                     <input type="text" name="{{namefield}}" placeholder="{{ 'mm.user.' + namefield | translate }}" ng-model="data[namefield]" autocorrect="off" required>
                 </ion-input>
-                <ion-input class="item item-input item-stacked-label item-text-wrap">
-                    <ion-label>{{ 'mm.user.city' | translate }}</ion-label>
-                    <input type="text" name="city" placeholder="{{ 'mm.user.city' | translate }}" ng-model="data.city" autocorrect="off">
-                </ion-input>
+                <!-- <ion-input class="item item-input item-stacked-label item-text-wrap"> -->
+                    <!-- <ion-label>{{ 'mm.user.city' | translate }}</ion-label> -->
+                    <!-- <input type="text" name="city" placeholder="{{ 'mm.user.city' | translate }}" ng-model="data.city" autocorrect="off"> -->
+                <!-- </ion-input> -->
                 <!-- <ion-input class="item item-select"> -->
                     <!-- <ion-label id="mm-login-signup-country">{{ 'mm.user.country' | translate }}</ion-label> -->
                     <!-- <select name="country" ng-model="data.country" ng-options="code as name for (code, name) in countries" aria-labelledby="mm-login-signup-country" mm-ios-select-fix> -->
