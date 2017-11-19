@@ -65715,7 +65715,7 @@ angular.module('mm.addons.mod_wiki')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id" : "com.myprivateguru.moodlemobile",
+    "app_id" : "com.myprivateguru.mobile",
     "appname": "My guru",
     "desktopappname": "MyGuru Desktop",
     "versioncode" : "2019",

@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.myprivateguru.moodlemobile"
+        id        = "com.myprivateguru.mobile"
         versionCode = "20191"
         version   = "3.3.3">
      <name>My Guru</name>
