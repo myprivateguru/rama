@@ -47,12 +47,12 @@
                     <ion-label>{{ 'mm.user.city' | translate }}</ion-label>
                     <input type="text" name="city" placeholder="{{ 'mm.user.city' | translate }}" ng-model="data.city" autocorrect="off">
                 </ion-input>
-                <ion-input class="item item-select">
-                    <ion-label id="mm-login-signup-country">{{ 'mm.user.country' | translate }}</ion-label>
-                    <select name="country" ng-model="data.country" ng-options="code as name for (code, name) in countries" aria-labelledby="mm-login-signup-country" mm-ios-select-fix>
-                        <option value="">{{ 'mm.login.selectacountry' | translate }}</option>
-                    </select>
-                </ion-input>
+                <!-- <ion-input class="item item-select"> -->
+                    <!-- <ion-label id="mm-login-signup-country">{{ 'mm.user.country' | translate }}</ion-label> -->
+                    <!-- <select name="country" ng-model="data.country" ng-options="code as name for (code, name) in countries" aria-labelledby="mm-login-signup-country" mm-ios-select-fix> -->
+                        <!-- <option value="">{{ 'mm.login.selectacountry' | translate }}</option> -->
+                    <!-- </select> -->
+                <!-- </ion-input> -->
                 <!-- Other categories. -->
                 <div ng-repeat="category in categories">
                     <div class="item item-divider item-text-wrap">{{ category.name }}</div>
