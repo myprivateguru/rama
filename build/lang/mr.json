@@ -487,6 +487,7 @@
     "mma.messages.loadpreviousmessages": "मागील संदेश लोड करा",
     "mma.messages.message": "संदेश",
     "mma.messages.messagenotsent": "संदेश पाठविला गेला नाही, कृपया नंतर पुन्हा प्रयत्न करा.",
+	"mma.messages.messagepreferences": "संदेश प्राधान्ये",
     "mma.messages.messages": "संदेश",
     "mma.messages.mustbeonlinetosendmessages": "आपल्याला संदेश पाठविण्यासाठी ऑनलाइन असणे आवश्यक आहे",
     "mma.messages.newmessages": "नवीन संदेश",
@@ -811,5 +812,8 @@
     "mma.notifications.playsound": "ध्वनी प्ले करा",
     "mma.notifications.therearentnotificationsyet": "कोणत्याही सूचना नाहीत",
     "mma.participants.noparticipants": "या अभ्यासक्रमासाठी कोणतेही सहभागी आढळले नाहीत",
-    "mma.participants.participants": "सहभागी"
+    "mma.participants.participants": "सहभागी",
+	"mma.myoverview.pluginname": "अभ्यासक्रम आढावा",
+	"mma.frontpage.sitehome": "साइट मुख्यपृष्ठ",
+	"mma.myoverview.timeline": "टाइमलाइन",
 }
