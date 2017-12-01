@@ -3986,7 +3986,7 @@ a.subdued {
       background-image: linear-gradient(180deg, #f7a304, #f7a304 50%, transparent 50%); }
   .bar.bar-royal {
     border-color: #dd6c06;
-    background-color: #2792c4;
+    background-color: #f98012;
     background-image: linear-gradient(0deg, #dd6c06, #dd6c06 50%, transparent 50%);
     color: #fff; }
     .bar.bar-royal .title {
@@ -4243,7 +4243,7 @@ a.subdued {
 
 .bar-royal .button {
   border-color: #dd6c06;
-  background-color: #2792c4;
+  background-color: #f98012;
   color: #fff; }
   .bar-royal .button:hover {
     color: #fff;
@@ -4539,7 +4539,7 @@ a.subdued {
 .tabs-royal > .tabs,
 .tabs.tabs-royal {
   border-color: #dd6c06;
-  background-color: #2792c4;
+  background-color: #f98012;
   background-image: linear-gradient(0deg, #dd6c06, #dd6c06 50%, transparent 50%);
   color: #fff; }
   .tabs-royal > .tabs .tab-item .badge, .tabs-royal > .tabs .tab-item .mma-messages-date span, .mma-messages-date .tabs-royal > .tabs .tab-item span, .tabs-royal > .tabs .tab-item
@@ -4555,7 +4555,7 @@ a.subdued {
   .tabs.tabs-royal .tab-item .mma-chat-notice span, .mma-chat-notice
   .tabs.tabs-royal .tab-item span {
     background-color: #fff;
-    color: #2792c4; }
+    color: #f98012; }
 
 .tabs-dark > .tabs,
 .tabs.tabs-dark {
@@ -4783,7 +4783,7 @@ a.subdued {
   top: 4%; }
 
 .tabs-striped.tabs-royal .tabs {
-  background-color: #2792c4; }
+  background-color: #f98012; }
 
 .tabs-striped.tabs-royal .tab-item {
   color: rgba(255, 255, 255, 0.6);
@@ -4863,7 +4863,7 @@ a.subdued {
   background-image: none; }
 
 .tabs-striped.tabs-background-royal .tabs {
-  background-color: #2792c4;
+  background-color: #f98012;
   background-image: none; }
 
 .tabs-striped.tabs-background-dark .tabs {
@@ -5033,8 +5033,8 @@ a.subdued {
     opacity: 0.6; }
   .tabs-striped.tabs-color-royal .tab-item.tab-item-active, .tabs-striped.tabs-color-royal .tab-item.active, .tabs-striped.tabs-color-royal .tab-item.activated {
     margin-top: -2px;
-    color: #2792c4;
-    border: 0 solid #2792c4;
+    color: #f98012;
+    border: 0 solid #f98012;
     border-top-width: 2px; }
     .tabs-striped.tabs-color-royal .tab-item.tab-item-active .badge, .tabs-striped.tabs-color-royal .tab-item.tab-item-active .mma-messages-date span, .mma-messages-date .tabs-striped.tabs-color-royal .tab-item.tab-item-active span, .tabs-striped.tabs-color-royal .tab-item.tab-item-active
     .mma-messages-unreadfrom span,
@@ -5112,7 +5112,7 @@ a.subdued {
 
 .tabs-background-royal .tabs,
 .tabs-background-royal > .tabs {
-  background-color: #2792c4;
+  background-color: #f98012;
   background-image: linear-gradient(0deg, #dd6c06, #dd6c06 50%, transparent 50%);
   border-color: #dd6c06; }
 
@@ -5263,8 +5263,8 @@ a.subdued {
   .mma-messages-unreadfrom .tabs-color-royal .tab-item span, .tabs-color-royal .tab-item .mma-chat-notice span, .mma-chat-notice .tabs-color-royal .tab-item span {
     opacity: 0.6; }
   .tabs-color-royal .tab-item.tab-item-active, .tabs-color-royal .tab-item.active, .tabs-color-royal .tab-item.activated {
-    color: #2792c4;
-    border: 0 solid #2792c4; }
+    color: #f98012;
+    border: 0 solid #f98012; }
     .tabs-color-royal .tab-item.tab-item-active .badge, .tabs-color-royal .tab-item.tab-item-active .mma-messages-date span, .mma-messages-date .tabs-color-royal .tab-item.tab-item-active span, .tabs-color-royal .tab-item.tab-item-active
     .mma-messages-unreadfrom span,
     .mma-messages-unreadfrom .tabs-color-royal .tab-item.tab-item-active span, .tabs-color-royal .tab-item.tab-item-active .mma-chat-notice span, .mma-chat-notice .tabs-color-royal .tab-item.tab-item-active span, .tabs-color-royal .tab-item.active .badge, .tabs-color-royal .tab-item.active .mma-messages-date span, .mma-messages-date .tabs-color-royal .tab-item.active span, .tabs-color-royal .tab-item.active
@@ -5359,11 +5359,11 @@ ion-tabs.tabs-striped.tabs-color-active-energized .tab-item.tab-item-active, ion
 ion-tabs.tabs-color-active-royal .tab-item {
   color: #3a3a3a; }
   ion-tabs.tabs-color-active-royal .tab-item.tab-item-active, ion-tabs.tabs-color-active-royal .tab-item.active, ion-tabs.tabs-color-active-royal .tab-item.activated {
-    color: #2792c4; }
+    color: #f98012; }
 
 ion-tabs.tabs-striped.tabs-color-active-royal .tab-item.tab-item-active, ion-tabs.tabs-striped.tabs-color-active-royal .tab-item.active, ion-tabs.tabs-striped.tabs-color-active-royal .tab-item.activated {
-  border-color: #2792c4;
-  color: #2792c4; }
+  border-color: #f98012;
+  color: #f98012; }
 
 ion-tabs.tabs-color-active-dark .tab-item {
   color: #fff; }
@@ -5590,7 +5590,7 @@ ion-tabs.tabs-striped.tabs-color-active-dark .tab-item.tab-item-active, ion-tabs
   .tab-item.tab-item-active.tab-item-royal,
   .tab-item.active.tab-item-royal,
   .tab-item.activated.tab-item-royal {
-    color: #2792c4; }
+    color: #f98012; }
   .tab-item.tab-item-active.tab-item-dark,
   .tab-item.active.tab-item-dark,
   .tab-item.activated.tab-item-dark {
@@ -6170,7 +6170,7 @@ ion-tabs.tabs-striped.tabs-color-active-dark .tab-item.tab-item-active, ion-tabs
     color: #fff; }
   .item.item-royal, .mm-grades-table .item-royal.itemcenter {
     border-color: #dd6c06;
-    background-color: #2792c4;
+    background-color: #f98012;
     color: #fff; }
   .item.item-dark, .mm-grades-table .item-dark.itemcenter {
     border-color: #111;
@@ -6536,7 +6536,7 @@ a.item-content {
 
 .item-complex.item-royal > .item-content {
   border-color: #dd6c06;
-  background-color: #2792c4;
+  background-color: #f98012;
   color: #fff; }
   .item-complex.item-royal > .item-content.active, .item-complex.item-royal > .item-content:active {
     border-color: #dd6c06;
@@ -7309,7 +7309,7 @@ button.item.item-button-right,
 .mma-messages-date span.badge-royal,
 .mma-messages-unreadfrom span.badge-royal,
 .mma-chat-notice span.badge-royal {
-  background-color: #2792c4;
+  background-color: #f98012;
   color: #fff; }
 
 .tabs .tab-item .badge.badge-dark, .tabs .tab-item .mma-messages-date span.badge-dark, .mma-messages-date .tabs .tab-item span.badge-dark, .tabs .tab-item
@@ -8020,8 +8020,8 @@ ion-slides {
     stroke: #fbad1a;
     fill: #fbad1a; }
   .spinner.spinner-royal {
-    stroke: #2792c4;
-    fill: #2792c4; }
+    stroke: #f98012;
+    fill: #f98012; }
   .spinner.spinner-dark {
     stroke: #3a3a3a;
     fill: #3a3a3a; }
@@ -8062,7 +8062,7 @@ ion-slides {
   stop-color: #fbad1a; }
 
 .spinner-spiral.spinner-royal .stop2 {
-  stop-color: #2792c4; }
+  stop-color: #f98012; }
 
 .spinner-spiral.spinner-dark .stop2 {
   stop-color: #3a3a3a; }
@@ -8476,12 +8476,12 @@ input[type="checkbox"][readonly] {
 
 .checkbox-royal input:before,
 .checkbox-royal .checkbox-icon:before {
-  border-color: #2792c4; }
+  border-color: #f98012; }
 
 .checkbox-royal input:checked:before,
 .checkbox-royal input:checked + .checkbox-icon:before {
-  background: #2792c4;
-  border-color: #2792c4; }
+  background: #f98012;
+  border-color: #f98012; }
 
 .checkbox-dark input:before,
 .checkbox-dark .checkbox-icon:before {
@@ -8657,8 +8657,8 @@ input:checked + .checkbox-icon:after {
   background-color: #fbad1a; }
 
 .toggle.toggle-royal input:checked + .track {
-  border-color: #2792c4;
-  background-color: #2792c4; }
+  border-color: #f98012;
+  background-color: #f98012; }
 
 .toggle.toggle-dark input:checked + .track {
   border-color: #3a3a3a;
@@ -8808,7 +8808,7 @@ input:checked + .checkbox-icon:after {
   background-color: rgba(249, 128, 18, 0.5); }
 
 .toggle-small .toggle-royal input:checked + .track .handle {
-  background-color: #2792c4; }
+  background-color: #f98012; }
 
 .toggle-small .toggle-dark input:checked + .track {
   background-color: rgba(58, 58, 58, 0.5); }
@@ -8970,9 +8970,9 @@ input:checked + .checkbox-icon:after {
   .range.range-energized input::-ms-fill-lower {
     background: #fbad1a; }
   .range.range-royal input::-webkit-slider-thumb:before {
-    background: #2792c4; }
+    background: #f98012; }
   .range.range-royal input::-ms-fill-lower {
-    background: #2792c4; }
+    background: #f98012; }
   .range.range-dark input::-webkit-slider-thumb:before {
     background: #3a3a3a; }
   .range.range-dark input::-ms-fill-lower {
@@ -9097,7 +9097,7 @@ input:checked + .checkbox-icon:after {
   .item-select.item-energized:after, .item-select.item-energized .input-label {
     color: #fff; }
   .item-select.item-royal select {
-    background: #2792c4;
+    background: #f98012;
     color: #fff; }
   .item-select.item-royal:after, .item-select.item-royal .input-label {
     color: #fff; }
@@ -9360,7 +9360,7 @@ progress {
         color: #fff; }
   .button.button-royal {
     border-color: #0064d2;
-    background-color: #2792c4;
+    background-color: #f98012;
     color: #fff; }
     .button.button-royal:hover {
       color: #fff;
@@ -9372,16 +9372,16 @@ progress {
       border-color: transparent;
       background: none;
       box-shadow: none;
-      color: #2792c4; }
+      color: #f98012; }
     .button.button-royal.button-icon {
       border-color: transparent;
       background: none; }
     .button.button-royal.button-outline {
-      border-color: #2792c4;
+      border-color: #f98012;
       background: transparent;
-      color: #2792c4; }
+      color: #f98012; }
       .button.button-royal.button-outline.active, .button.button-royal.button-outline.activated {
-        background-color: #2792c4;
+        background-color: #f98012;
         box-shadow: none;
         color: #fff; }
   .button.button-dark {
@@ -10104,10 +10104,10 @@ a.button {
   border-color: #f7a304; }
 
 .royal, a.royal {
-  color: #2792c4; }
+  color: #f98012; }
 
 .royal-bg {
-  background-color: #2792c4; }
+  background-color: #f98012; }
 
 .royal-border {
   border-color: #dd6c06; }
@@ -10371,6 +10371,8 @@ a.button {
     color: #0064d2; }
   .icon.assertive {
     color: #cb3d4d; }
+  .icon.balanced {
+    color: #5e8100; }
   .icon.dark {
     color: #3a3a3a; }
   .icon.icon-accessory {
@@ -10427,37 +10429,64 @@ a.button {
 .item-delete .button.icon.actived {
   color: #cb3d4d; }
 
-.button.button-light, .button.button-stable, .button.button-calm, .button.button-assertive, .button.button-balanced, .button.button-energized, .button.button-royal {
+.button.button-light, .button.button-stable, .button.button-calm, .button.button-balanced, .button.button-energized, .button.button-royal {
   border-color: #0064d2;
   background-color: #ffffff;
   color: #0064d2; }
-  .button.button-light:hover, .button.button-stable:hover, .button.button-calm:hover, .button.button-assertive:hover, .button.button-balanced:hover, .button.button-energized:hover, .button.button-royal:hover {
+  .button.button-light:hover, .button.button-stable:hover, .button.button-calm:hover, .button.button-balanced:hover, .button.button-energized:hover, .button.button-royal:hover {
     color: #0064d2;
     text-decoration: none; }
-  .button.button-light.active, .button.button-light.activated, .button.button-stable.active, .button.button-stable.activated, .button.button-calm.active, .button.button-calm.activated, .button.button-assertive.active, .button.button-assertive.activated, .button.button-balanced.active, .button.button-balanced.activated, .button.button-energized.active, .button.button-energized.activated, .button.button-royal.active, .button.button-royal.activated {
+  .button.button-light.active, .button.button-light.activated, .button.button-stable.active, .button.button-stable.activated, .button.button-calm.active, .button.button-calm.activated, .button.button-balanced.active, .button.button-balanced.activated, .button.button-energized.active, .button.button-energized.activated, .button.button-royal.active, .button.button-royal.activated {
     border-color: #0064d2;
     background-color: #0064d2; }
-  .button.button-light.button-clear, .button.button-stable.button-clear, .button.button-calm.button-clear, .button.button-assertive.button-clear, .button.button-balanced.button-clear, .button.button-energized.button-clear, .button.button-royal.button-clear {
+  .button.button-light.button-clear, .button.button-stable.button-clear, .button.button-calm.button-clear, .button.button-balanced.button-clear, .button.button-energized.button-clear, .button.button-royal.button-clear {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #0064d2; }
-  .button.button-light.button-icon, .button.button-stable.button-icon, .button.button-calm.button-icon, .button.button-assertive.button-icon, .button.button-balanced.button-icon, .button.button-energized.button-icon, .button.button-royal.button-icon {
+  .button.button-light.button-icon, .button.button-stable.button-icon, .button.button-calm.button-icon, .button.button-balanced.button-icon, .button.button-energized.button-icon, .button.button-royal.button-icon {
     border-color: transparent;
     background: none; }
-  .button.button-light.button-outline, .button.button-stable.button-outline, .button.button-calm.button-outline, .button.button-assertive.button-outline, .button.button-balanced.button-outline, .button.button-energized.button-outline, .button.button-royal.button-outline {
+  .button.button-light.button-outline, .button.button-stable.button-outline, .button.button-calm.button-outline, .button.button-balanced.button-outline, .button.button-energized.button-outline, .button.button-royal.button-outline {
     border-color: #0064d2;
     background: transparent;
     color: #0064d2; }
-    .button.button-light.button-outline.active, .button.button-light.button-outline.activated, .button.button-stable.button-outline.active, .button.button-stable.button-outline.activated, .button.button-calm.button-outline.active, .button.button-calm.button-outline.activated, .button.button-assertive.button-outline.active, .button.button-assertive.button-outline.activated, .button.button-balanced.button-outline.active, .button.button-balanced.button-outline.activated, .button.button-energized.button-outline.active, .button.button-energized.button-outline.activated, .button.button-royal.button-outline.active, .button.button-royal.button-outline.activated {
+    .button.button-light.button-outline.active, .button.button-light.button-outline.activated, .button.button-stable.button-outline.active, .button.button-stable.button-outline.activated, .button.button-calm.button-outline.active, .button.button-calm.button-outline.activated, .button.button-balanced.button-outline.active, .button.button-balanced.button-outline.activated, .button.button-energized.button-outline.active, .button.button-energized.button-outline.activated, .button.button-royal.button-outline.active, .button.button-royal.button-outline.activated {
       background-color: #0064d2;
       box-shadow: none;
       color: #fff; }
-  .button.button-light.active, .button.button-light.activated, .button.button-stable.active, .button.button-stable.activated, .button.button-calm.active, .button.button-calm.activated, .button.button-assertive.active, .button.button-assertive.activated, .button.button-balanced.active, .button.button-balanced.activated, .button.button-energized.active, .button.button-energized.activated, .button.button-royal.active, .button.button-royal.activated {
+  .button.button-light.active, .button.button-light.activated, .button.button-stable.active, .button.button-stable.activated, .button.button-calm.active, .button.button-calm.activated, .button.button-balanced.active, .button.button-balanced.activated, .button.button-energized.active, .button.button-energized.activated, .button.button-royal.active, .button.button-royal.activated {
     box-shadow: none;
     color: #ffffff; }
-    .button.button-light.active .icon, .button.button-light.activated .icon, .button.button-stable.active .icon, .button.button-stable.activated .icon, .button.button-calm.active .icon, .button.button-calm.activated .icon, .button.button-assertive.active .icon, .button.button-assertive.activated .icon, .button.button-balanced.active .icon, .button.button-balanced.activated .icon, .button.button-energized.active .icon, .button.button-energized.activated .icon, .button.button-royal.active .icon, .button.button-royal.activated .icon {
+    .button.button-light.active .icon, .button.button-light.activated .icon, .button.button-stable.active .icon, .button.button-stable.activated .icon, .button.button-calm.active .icon, .button.button-calm.activated .icon, .button.button-balanced.active .icon, .button.button-balanced.activated .icon, .button.button-energized.active .icon, .button.button-energized.activated .icon, .button.button-royal.active .icon, .button.button-royal.activated .icon {
       color: #ffffff; }
+
+.button.button-assertive {
+  border-color: #a82d3b;
+  background-color: #cb3d4d;
+  color: #fff; }
+  .button.button-assertive:hover {
+    color: #fff;
+    text-decoration: none; }
+  .button.button-assertive.active, .button.button-assertive.activated {
+    border-color: #a82d3b;
+    background-color: #a82d3b; }
+  .button.button-assertive.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #cb3d4d; }
+  .button.button-assertive.button-icon {
+    border-color: transparent;
+    background: none; }
+  .button.button-assertive.button-outline {
+    border-color: #cb3d4d;
+    background: transparent;
+    color: #cb3d4d; }
+    .button.button-assertive.button-outline.active, .button.button-assertive.button-outline.activated {
+      background-color: #cb3d4d;
+      box-shadow: none;
+      color: #fff; }
 
 .button.active, .button.activated {
   box-shadow: none;
@@ -10566,21 +10595,21 @@ a.button {
 
 .bar-content {
   border-color: transparent;
-  background-color: #2792c4;
+  background-color: #f98012;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #ffffff; }
   .bar-content .title {
     color: #ffffff; }
   .bar-content .button {
     border-color: transparent;
-    background-color: #2792c4;
+    background-color: #f98012;
     color: #ffffff; }
     .bar-content .button:hover {
       color: #ffffff;
       text-decoration: none; }
     .bar-content .button.active, .bar-content .button.activated {
       border-color: transparent;
-      background-color: #2792c4; }
+      background-color: #f98012; }
     .bar-content .button.button-clear {
       border-color: transparent;
       background: none;
@@ -10636,13 +10665,18 @@ p.item-text-wrap {
   max-width: 40%;
   width: 40%; }
 
+.item-avatar > img:first-child, .item-media > img:first-child, .item-avatar-center > img:first-child, .item-progress > img:first-child {
+  text-indent: -99999px;
+  background-color: #eeeeee; }
+
 .item-media {
   padding-left: 64px;
   min-height: 64px; }
   .item-media > img:first-child {
     max-width: 32px;
     max-height: 32px;
-    border-radius: 0; }
+    border-radius: 0;
+    background-color: transparent; }
   .item-media p {
     margin: 0px; }
   .item-media.item-button-right > .button,
@@ -10751,8 +10785,8 @@ p.item-text-wrap {
     opacity: 0.6; }
   .mm-tabs-color .tab-item.tab-item-active, .mm-tabs-color .tab-item.active, .mm-tabs-color .tab-item.activated {
     margin-top: -2px;
-    color: #2792c4;
-    border: 0 solid #2792c4;
+    color: #f98012;
+    border: 0 solid #f98012;
     border-top-width: 2px; }
     .mm-tabs-color .tab-item.tab-item-active .badge, .mm-tabs-color .tab-item.tab-item-active .mma-messages-date span, .mma-messages-date .mm-tabs-color .tab-item.tab-item-active span, .mm-tabs-color .tab-item.tab-item-active
     .mma-messages-unreadfrom span,
@@ -10772,8 +10806,8 @@ p.item-text-wrap {
   .mma-messages-unreadfrom .mm-tabs-color .tab-item span, .mm-tabs-color .tab-item .mma-chat-notice span, .mma-chat-notice .mm-tabs-color .tab-item span {
     opacity: 0.6; }
   .mm-tabs-color .tab-item.tab-item-active, .mm-tabs-color .tab-item.active, .mm-tabs-color .tab-item.activated {
-    color: #2792c4;
-    border: 0 solid #2792c4; }
+    color: #f98012;
+    border: 0 solid #f98012; }
     .mm-tabs-color .tab-item.tab-item-active .badge, .mm-tabs-color .tab-item.tab-item-active .mma-messages-date span, .mma-messages-date .mm-tabs-color .tab-item.tab-item-active span, .mm-tabs-color .tab-item.tab-item-active
     .mma-messages-unreadfrom span,
     .mma-messages-unreadfrom .mm-tabs-color .tab-item.tab-item-active span, .mm-tabs-color .tab-item.tab-item-active .mma-chat-notice span, .mma-chat-notice .mm-tabs-color .tab-item.tab-item-active span, .mm-tabs-color .tab-item.active .badge, .mm-tabs-color .tab-item.active .mma-messages-date span, .mma-messages-date .mm-tabs-color .tab-item.active span, .mm-tabs-color .tab-item.active
@@ -10931,6 +10965,18 @@ button.item.item-button-right.item-3-button-right,
   padding-bottom: 7px; }
   .button.button-block .icon:before, .button.button-block.icon:before, .button.button-block.icon-left:before, .button.button-block.icon-right:before {
     line-height: 28px; }
+
+.item-icon-right .item-note .icon {
+  display: inline;
+  align-items: normal;
+  position: relative;
+  top: auto;
+  right: auto;
+  height: auto;
+  font-size: 14px; }
+  .item-icon-right .item-note .icon:before {
+    display: inline;
+    width: auto; }
 
 /**
  * Core directives.
@@ -11277,6 +11323,10 @@ mm-navigation-bar .col, mm-navigation-bar .mm-data-contents td, .mm-data-content
   margin-left: 0;
   margin-right: 0; }
 
+.item-icon-left.item-icon-top .icon, .item-icon-right.item-icon-top .icon {
+  align-items: flex-start;
+  top: 11px; }
+
 .mm-error-item, .mm-site_mod_assign div.latesubmission,
 .mm-site_mod_assign div.overdue,
 .mm-site_mod_assign-submission div.latesubmission,
@@ -11504,6 +11554,21 @@ mm-timer {
     border: 0;
     position: relative; }
 
+.item-select.mm-full-width {
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 0; }
+  .item-select.mm-full-width select {
+    max-width: 100%;
+    width: 100%;
+    background: transparent;
+    text-indent: 0;
+    line-height: 16px;
+    border: 0;
+    position: relative; }
+  .item-select.mm-full-width.select-align-left select {
+    direction: ltr; }
+
 .item-select .mm-select-fix {
   position: absolute;
   top: 0;
@@ -11561,6 +11626,48 @@ mm-multiple-select {
 
 .checkbox input:before, .checkbox-icon:before {
   border-radius: 0; }
+
+.item-radio .radio-icon {
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  display: block;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  -webkit-appearance: none;
+  top: 14px;
+  right: 14px;
+  visibility: visible; }
+  .item-radio .radio-icon:before {
+    border: 1px solid #ddd;
+    display: table;
+    width: 100%;
+    height: 100%;
+    border-radius: 28px;
+    background: white;
+    -webkit-transition: background-color 20ms ease-in-out;
+    transition: background-color 20ms ease-in-out;
+    content: ' '; }
+  .item-radio .radio-icon:after {
+    -webkit-transition: opacity 0.05s ease-in-out;
+    transition: opacity 0.05s ease-in-out;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 33%;
+    left: 25%;
+    display: table;
+    width: 14px;
+    height: 6px;
+    border: 1px solid #fff;
+    border-top: 0;
+    border-right: 0;
+    content: ' '; }
+
+.item-radio input:checked + .radio-content .radio-icon:before {
+  background: #0064d2;
+  border-color: #0064d2; }
 
 input[type="radio"].mm-radio {
   position: relative;
@@ -11999,14 +12106,23 @@ progress {
   appearance: none;
   height: 5px;
   margin: 15px 0;
-  padding: 0; }
-  progress[value]::-webkit-progress-bar {
+  padding: 0;
+  display: block; }
+  progress .progress-bar-fallback, progress[value]::-webkit-progress-bar {
     background-color: #eeeeee;
     border-radius: 2px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset; }
-  progress[value]::-webkit-progress-value {
+  progress .progress-bar-fallback span, progress[value]::-webkit-progress-value {
     background-color: #fa9b44;
     border-radius: 2px; }
+  progress .progress-bar-fallback {
+    width: 100%;
+    height: 5px;
+    display: block;
+    position: relative; }
+    progress .progress-bar-fallback span {
+      height: 5px;
+      display: block; }
 
 mm-progress-bar {
   padding-right: 55px;
@@ -12078,6 +12194,22 @@ h2.invert, .item .invert.item-heading, .mm-grades-table .itemcenter .invert.item
 
 *[ng-click] {
   cursor: pointer; }
+
+::-webkit-media-controls {
+  max-width: 100%; }
+
+ol.list-with-style, ul.list-with-style {
+  list-style: initial;
+  padding-left: 40px; }
+
+.no-padding-bottom, .padding.no-padding-bottom, .item .no-padding-bottom.item-heading.padding, .mm-grades-table .itemcenter .no-padding-bottom.item-heading.padding {
+  padding-bottom: 0; }
+
+.text-success {
+  color: #5e8100; }
+
+.text-danger {
+  color: #cb3d4d; }
 
 .atto_image_preview {
   width: 100%;
@@ -12171,6 +12303,12 @@ h2.invert, .item .invert.item-heading, .mm-grades-table .itemcenter .invert.item
 
 .fa-ban:before {
   content: ""; }
+
+.fa-remove:before {
+  content: ""; }
+
+.fa-check:before {
+  content: ""; }
 
 /**
  * In this file we will reset ionic styles that can bother online html.
@@ -12761,11 +12899,15 @@ mm-course-list-item
 mm-course-list-item div.item-icon-left.earlysubmission {
   color: #3a3a3a; }
 
+.mm-course-enrollment-img {
+  max-width: 20px;
+  max-height: 34px; }
+
 .mm-capture-media-modal {
   background-color: #eeeeee; }
   .mm-capture-media-modal .bar-header {
     border-color: transparent;
-    background-color: #2792c4;
+    background-color: #f98012;
     background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
     color: #ffffff; }
     .mm-capture-media-modal .bar-header .title {
@@ -12923,7 +13065,8 @@ mm-course-list-item div.item-icon-left.earlysubmission {
   max-height: 80px;
   border-radius: 50%;
   padding: 4px;
-  border: 1px solid #ddd; }
+  border: 1px solid #ddd;
+  text-indent: -99999px; }
 
 .mm-login-sitepolicy-iframe {
   height: 300px; }
@@ -12980,7 +13123,8 @@ li.mm-question-answer-correct,
   background-color: #dfe6cc; }
 
 .mm-question-answer-correct .checkbox input:disabled:checked:before,
-.mm-question-answer-correct .checkbox input:disabled:checked + .checkbox-icon:before {
+.mm-question-answer-correct .checkbox input:disabled:checked + .checkbox-icon:before,
+.mm-question-answer-correct.item-radio input:checked + .radio-content .radio-icon:before {
   background-color: #394e00;
   border-color: #394e00; }
 
@@ -13005,7 +13149,8 @@ li.mm-question-answer-incorrect,
   background-color: #f5d8db; }
 
 .mm-question-answer-incorrect .checkbox input:disabled:checked:before,
-.mm-question-answer-incorrect .checkbox input:disabled:checked + .checkbox-icon:before {
+.mm-question-answer-incorrect .checkbox input:disabled:checked + .checkbox-icon:before,
+.mm-question-answer-incorrect.item-radio input:checked + .radio-content .radio-icon:before {
   background-color: #cb3d4d;
   border-color: #cb3d4d; }
 
@@ -13084,12 +13229,15 @@ li.mm-question-answer-incorrect,
 .mm-question-warning, p.mm-question-warning, .item .mm-question-warning, .mm-grades-table .itemcenter .mm-question-warning {
   color: #cb3d4d; }
 
+.questioncorrectnessicon {
+  font-size: 20px; }
+
 #mm-settings-languagelabel {
   color: #3a3a3a; }
 
 .bar-side-menu {
   border-color: transparent;
-  background-color: #2792c4;
+  background-color: #f98012;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #ffffff;
   height: 80px !important; }
@@ -13699,7 +13847,7 @@ p.mma-mod-assign-warning {
     .mma-forum-discussion-link.mm-split-item-selected article .item-heading,
     .mma-forum-discussion-link.mm-split-item-selected > .item article .item-heading, .mm-grades-table
     .mma-forum-discussion-link.mm-split-item-selected > .itemcenter article .item-heading {
-      border-top: 5px solid #2792c4;
+      border-top: 5px solid #f98012;
       margin-top: -1px; }
 
 .mma-forum-align-right {
@@ -14028,6 +14176,17 @@ ion-popover-view {
     background-color: #eeeeee; }
   .mm-site_mod_wiki .mma-mod_wiki-subwiki-picker .item.item-selected .icon, .mm-site_mod_wiki .mma-mod_wiki-subwiki-picker .mm-grades-table .item-selected.itemcenter .icon, .mm-grades-table .mm-site_mod_wiki .mma-mod_wiki-subwiki-picker .item-selected.itemcenter .icon {
     font-size: 24px; }
+
+.mm-site_mod_workshop p.mm-overriden-grade,
+.mm-site_mod_workshop-submission p.mm-overriden-grade,
+.mm-site_mod_workshop-assessment p.mm-overriden-grade {
+  color: #5e8100; }
+
+.mm-site_mod_workshop p.mm-has-overriden-grade,
+.mm-site_mod_workshop-submission p.mm-has-overriden-grade,
+.mm-site_mod_workshop-assessment p.mm-has-overriden-grade {
+  color: #cb3d4d;
+  text-decoration: line-through; }
 
 .qbehaviour_deferredcbm_actual_percentage {
   font-weight: bold; }
