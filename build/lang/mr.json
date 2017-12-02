@@ -815,5 +815,8 @@
     "mma.participants.participants": "सहभागी",
 	"mma.myoverview.pluginname": "अभ्यासक्रम आढावा",
 	"mma.frontpage.sitehome": "साइट मुख्यपृष्ठ",
-	"mma.myoverview.timeline": "टाइमलाइन"
+	"mma.myoverview.timeline": "टाइमलाइन",
+	"mm.sidemenu.abouta":"अॅप बद्दल",
+	"mm.settings.abouta":"Update and Share",
+	"mm.settings.share":"Care is Share"
 }
