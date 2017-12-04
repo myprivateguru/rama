@@ -780,8 +780,8 @@
     "mma.mod_scorm.scormstatusnotdownloaded": "यह SCORM डाउनलोड नहीं है।, जब आप इसे खोलते हैं, तो इसे स्वचालित रूप से डाउनलोड किया जाएगा। ",
     "mma.mod_scorm.scormstatusoutdated": "अंतिम डाउनलोड हो जाने से यह SCORM को संशोधित किया गया है।, जब आप इसे खोलते हैं, तो इसे स्वचालित रूप से डाउनलोड किया जाएगा। ",
     "mma.mod_scorm.suspended": "स्थगित",
-    "mma.mod_scorm.warningofflinedatadeleted": "प्रयास {{number}} का कुछ ऑफलाइन डेटा हटाया गया है क्योंकि वह नया प्रयास करता है"।
-    "mma.mod_scorm.warningsynconlineincomplete": "कुछ प्रयासों के साथ साइट को सिंक्रनाइज़ करना संभव नहीं है क्योंकि अंतिम ऑनलाइन प्रयास नहीं समाप्त हो चुके हैं।"
+    "mma.mod_scorm.warningofflinedatadeleted": "प्रयास {{number}} का कुछ ऑफलाइन डेटा हटाया गया है क्योंकि वह नया प्रयास करता है",
+    "mma.mod_scorm.warningsynconlineincomplete": "कुछ प्रयासों के साथ साइट को सिंक्रनाइज़ करना संभव नहीं है क्योंकि अंतिम ऑनलाइन प्रयास नहीं समाप्त हो चुके हैं।",
     "mma.mod_survey.cannotsubmitsurvey": "क्षमा करें, आपकी समीक्षा प्रस्तुत करने में समस्या आती है कृपया पुन: प्रयास करें।",
     "mma.mod_survey.errorgetsurvey": "सर्वेक्षण डेटा प्राप्त करना त्रुटि।",
     "mma.mod_survey.responses": "प्रतिसाद",
