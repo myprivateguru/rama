@@ -71108,7 +71108,7 @@ angular.module('mm.core')
     "versionname" : "3.4.0",
     "cache_expiration_time" : 300000,
     "default_lang" : "en",
-    "languages": {"en": "English","mr": "मराठी","hi":"हिंदी"},
+    "languages": {"en": "English","mr": "मराठी"},
     "wsservice" : "moodle_mobile_app",
     "wsextservice" : "local_mobile",
     "demo_sites": {"student": {"url": "https://school.demo.moodle.net", "username": "student", "password": "moodle"}, "teacher": {"url": "https://school.demo.moodle.net", "username": "teacher", "password": "moodle"}},
