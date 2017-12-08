@@ -8,7 +8,6 @@
         <div class="tabs tabs-striped tabs-free mm-tabs-color">
             <a class="tab-item" ng-class="{'active': tabShown == 'timeline'}" ng-click="switchTab('timeline')">{{ 'mma.myoverview.timeline' | translate }}</a>
             <a class="tab-item" ng-class="{'active': tabShown == 'courses'}" ng-click="switchTab('courses')">{{ 'mm.courses.courses' | translate }}</a>
-			<a class="tab-item" ng-class="{'active': tabShown == 'courses123'}" ng-click="switchTab('courses123')">{{ 'mm.courses.courses123' | translate }}</a>
         </div>
         <div class="padding">
             <div class="item-select mm-full-width-centered mm-timelinesort" ng-show="tabShown == 'timeline' && (timeline.loaded || timelineCourses.loaded)">
@@ -63,39 +62,6 @@
                 <mm-empty-box ng-if="courses[courses.selected].length == 0 && courses.selected == 'future'" image="addons/myoverview/img/courses.svg" message="{{ 'mma.myoverview.nocoursesfuture' | translate }}"></mm-empty-box>
                 <mm-empty-box ng-if="courses[courses.selected].length == 0 && courses.selected == 'past'" image="addons/myoverview/img/courses.svg" message="{{ 'mma.myoverview.nocoursespast' | translate }}"></mm-empty-box>
             </mm-loading>
-			<div ng-show="tabShown == 'courses123'" >
-			
-			<div><mm-loading hide-until="frontpageLoaded">
-
-            <section class="card" ng-if="section && sectionHasContent(section)">
-                <div class="item item-text-wrap clearfix" ng-if="section.summary">
-                    <mm-format-text>{{ section.summary }}</mm-format-text>
-                </div>
-
-                <mm-course-module class="item item-complex" ng-repeat="module in section.modules" module="module"></mm-course-module>
-            </section>
-
-            <mma-frontpage-item ng-repeat="item in items" name="{{item}}"></mma-frontpage-item>
-
-            <section class="card" ng-if="block && sectionHasContent(block)">
-                <div class="item item-text-wrap clearfix" ng-if="block.summary">
-                    <mm-format-text>{{ block.summary }}</mm-format-text>
-                </div>
-
-                <mm-course-module class="item item-complex" ng-repeat="module in block.modules" module="module"></mm-course-module>
-            </section>
-
-            <mm-empty-box ng-if="!hasContent" icon="ion-qr-scanner" message="{{ 'mm.course.nocontentavailable' | translate }}"></mm-empty-box>
-        </mm-loading>
-
-                        <h1>"Rank will display here"</h1>
-						<h2>"this plugin under developement. "</h2>
-                    
-                    
-            </div>
-			</div>
-				
-			
         </div>
     </ion-content>
 </ion-view>
