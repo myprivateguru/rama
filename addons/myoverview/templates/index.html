@@ -2,25 +2,15 @@
   <mm-split-view component="mmaMessagesIndex">
         <ion-tabs class="tabs-icon-top">
 		
-            <ion-tab title="{{ 'mma.frontpage.sitehome' | translate }}" icon="ion-home">
-                <!-- <ion-pane ng-controller="mmaMessagesDiscussionsCtrl"> -->
-                    <!-- <ng-include src="'addons/messages/templates/discussions.html'"></ng-include> -->
-                <!-- </ion-pane> -->
-				<ion-pane ng-controller="mmaFrontpageCtrl">
+          	<ion-tab title="{{ 'mma.frontpage.sitehome' | translate }}" icon="ion-home">
+                <ion-pane ng-controller="mmaFrontpageCtrl">
 				<ng-include src="'addons/frontpage/templates/frontpage.html'"></ng-include>
 				</ion-pane>
             </ion-tab>
 			<ion-tab title="{{ 'mma.myoverview.pluginname' | translate }}" icon="ion-ios-pie">
-                <!-- <ion-pane ng-controller="mmaMessagesContactsCtrl"> -->
-                    <!-- <ng-include src="'addons/messages/templates/contacts.html'"></ng-include> -->
-                <!-- </ion-pane> -->
 				
             </ion-tab>
-            <ion-tab title="{{ 'mma.notifications.notifications' | translate }}" icon="ion-ios-bell">
-                <!-- <ion-pane ng-controller="mmaMessagesContactsCtrl"> -->
-                    <!-- <ng-include src="'addons/messages/templates/contacts.html'"></ng-include> -->
-                <!-- </ion-pane> -->
-				
+			<ion-tab title="{{ 'mma.notifications.notifications' | translate }}" icon="ion-ios-bell">
                 <ion-pane ng-controller="mmaNotificationsListCtrl">
 				<ng-include src="'addons/notifications/templates/list.html'"></ng-include>
 				</ion-pane>
