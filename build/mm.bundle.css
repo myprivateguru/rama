@@ -14583,6 +14583,6 @@ ion-popover-view {
 }
 .footer {
    position:fixed;
-   bottom:5%;
+   bottom:50px;
    height:50px;
 }
