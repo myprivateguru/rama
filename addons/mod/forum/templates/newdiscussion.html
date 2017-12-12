@@ -27,4 +27,12 @@
             </form>
         </mm-loading>
     </ion-content>
+		<div class="row bar bar-footer">
+    <div class="col">
+        <button ng-if="hasOffline" class="button button-block button-outline button-positive" ng-click="discard()">{{ 'mm.core.discard' | translate }}</button>
+    </div>
+    <div class="col">
+        <button class="button button-block button-positive" ng-click="add()" ng-disabled="newDiscussion.subject == '' || newDiscussion.text == ''">{{ 'mma.mod_forum.posttoforum' | translate }}</button>
+    </div>
+      </div>
 </ion-view>
