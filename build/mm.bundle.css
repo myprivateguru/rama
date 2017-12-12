@@ -14550,7 +14550,7 @@ ion-popover-view {
   margin-right: 7px; }
 /* custom hack */
 .coursesectionsbg {
-    background: #ff7f41 url("https://media.giphy.com/media/HZ8xEOpCVos9i/giphy.gif");
+    background: #ff7f41 url("https://gurujiathome.github.io/imgs/add.png");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -14560,7 +14560,8 @@ ion-popover-view {
     background-position: center;
 }
 .courselistbg {
-    background: #ff7f41 url("https://media.giphy.com/media/l4FGlk4UnmIRfOfRK/source.gif");
+    /* background: #ff7f41 url("https://gurujiathome.github.io/imgs/ana.gif"); */
+	background: #ff7f41 url("https://gurujiathome.github.io/imgs/ana.gif");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
