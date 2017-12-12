@@ -89,6 +89,7 @@
                     </ion-input>
 
                 </div>
+				<div class="courselistbg"></div>
 
                 <div ng-class="{'mm-course-grid': showGrid}">
                     <mm-course-list-progress ng-repeat="course in courses[courses.selected] | filter:{fullname: courses.filter}" course="course" round-progress="showGrid" show-summary="showGrid"></mm-course-list-progress>

@@ -6,6 +6,7 @@
         <!-- ion-refresher needs to be direct child of ion-content to work with native scrolling -->
         <ion-refresher pulling-text="{{ 'mm.core.pulltorefresh' | translate }}" ng-if="coursesLoaded" on-refresh="refreshCourses()">
         </ion-refresher>
+		<!-- <div class="courselistbg"></div> -->
         <mm-loading hide-until="coursesLoaded">
             <div ng-if="courses && courses.length > 5" class="item item-transparent item-input-inset">
                 <ion-input class="item-input-wrapper">
