@@ -14581,3 +14581,8 @@ ion-popover-view {
     min-height: 140px;
     background-position: center;
 }
+.footer {
+   position:fixed;
+   bottom:0%;
+   height:50px;
+}
