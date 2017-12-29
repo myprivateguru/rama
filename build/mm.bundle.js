@@ -71101,7 +71101,7 @@ angular.module('mm.addons.mod_workshop')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id" : "com.myprivateguru.mobile",
+    "app_id" : "com.myprivateguru.moodlemobile",
     "appname": "MyPrivateGuru",
     "desktopappname": "Moodle Desktop",
     "versioncode" : "2021",
