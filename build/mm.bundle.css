@@ -14548,3 +14548,41 @@ ion-popover-view {
 .mma-qtype-multianswer-container input[type="radio"], .mma-qtype-multianswer-container input[type="checkbox"] {
   margin-top: -4px;
   margin-right: 7px; }
+/* custom hack */
+.coursesectionsbg {
+    background: #ff7f41 url("https://gurujiathome.github.io/imgs/add.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 140px;
+    background-position: center;
+}
+.courselistbg {
+    /* background: #ff7f41 url("https://gurujiathome.github.io/imgs/ana.gif"); */
+	background: #ff7f41 url("https://gurujiathome.github.io/imgs/ana.gif");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 140px;
+    background-position: center;
+    margin-bottom:-20px;
+}
+.planssheader {
+    background: url("../img/extras/coursesection.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 140px;
+    background-position: center;
+}
+.footer {
+   position:fixed;
+   bottom:5%;
+   height:50px;
+}

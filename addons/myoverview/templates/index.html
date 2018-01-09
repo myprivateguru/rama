@@ -1,4 +1,40 @@
-<ion-view view-title="{{ 'mma.myoverview.pluginname' | translate }}">
+<ion-view view-title="MyPrivateGuru">
+  <mm-split-view component="mmaMessagesIndex">
+        <ion-tabs class="tabs-icon-top">
+		
+          	<ion-tab title="{{ 'mma.frontpage.sitehome' | translate }}" icon="ion-home">
+                <ion-pane ng-controller="mmaFrontpageCtrl">
+				<ng-include src="'addons/frontpage/templates/frontpage.html'"></ng-include>
+				</ion-pane>
+            </ion-tab>
+			<ion-tab title="{{ 'mma.myoverview.pluginname' | translate }}" icon="ion-ios-pie">
+				
+            </ion-tab>
+			<ion-tab title="{{ 'mma.notifications.notifications' | translate }}" icon="ion-ios-bell">
+                <ion-pane ng-controller="mmaNotificationsListCtrl">
+				<ng-include src="'addons/notifications/templates/list.html'"></ng-include>
+				</ion-pane>
+            </ion-tab>
+			<ion-tab title="{{ 'mma.calendar.calendarevents' | translate }}" icon="ion-calendar">
+                <!-- <ion-pane ng-controller="mmaMessagesContactsCtrl"> -->
+                    <!-- <ng-include src="'addons/messages/templates/contacts.html'"></ng-include> -->
+                <!-- </ion-pane> -->
+				<ion-pane ng-controller="mmaCalendarListCtrl">
+                    <ng-include src="'addons/calendar/templates/list.html'"></ng-include>
+            </ion-pane>
+			</ion-tab>
+			<ion-tab title="{{ 'mm.grades.grades' | translate }}" icon="ion-stats-bars">
+                <!-- <ion-pane ng-controller="mmaMessagesContactsCtrl"> -->
+                    <!-- <ng-include src="'addons/messages/templates/contacts.html'"></ng-include> -->
+                <!-- </ion-pane> -->
+				<ion-pane ng-controller="mmaGradesCoursesGradesCtrl">
+                    <ng-include src="'addons/grades/templates/courses.html'"></ng-include>
+					</ion-pane>
+            </ion-tab>
+		
+			
+        </ion-tabs>
+    </mm-split-view>
     <ion-nav-buttons side="secondary">
         <a ui-sref="site.mm_searchcourses" ng-if="searchEnabled" class="button button-icon ion-ios-search-strong"></a>
     </ion-nav-buttons>
@@ -53,6 +89,7 @@
                     </ion-input>
 
                 </div>
+				<div class="courselistbg"></div>
 
                 <div ng-class="{'mm-course-grid': showGrid}">
                     <mm-course-list-progress ng-repeat="course in courses[courses.selected] | filter:{fullname: courses.filter}" course="course" round-progress="showGrid" show-summary="showGrid"></mm-course-list-progress>

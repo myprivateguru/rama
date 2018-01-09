@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.myprivateguru.mobile"
-        versionCode = "20211"
+        versionCode = "20212"
         version   = "3.4.0">
     <name>My Guru</name>
 
@@ -160,6 +160,7 @@
         <uses-permission android:name="android.permission.GET_ACCOUNTS" />
         <uses-permission android:name="android.permission.VIBRATE"/>
     </gap:config-file>
+
 
     <gap:config-file platform="ios" parent="CFBundleDocumentTypes" mode="add">
         <array>
