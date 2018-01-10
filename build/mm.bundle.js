@@ -12153,6 +12153,15 @@ angular.module('mm.core.settings', [])
             }
         }
 	})
+	.state('site.mm_settings-poster', {
+        url: '/mm_settings-poster',
+        views: {
+            'site': {
+                templateUrl: 'core/components/settings/templates/poster.html',
+                controller: 'mmSettingsAboutCtrl'
+            }
+        }
+	})
     .state('site.mm_settings-general', {
         url: '/mm_settings-general',
         views: {
